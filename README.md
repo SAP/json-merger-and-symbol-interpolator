@@ -8,7 +8,8 @@ Command line tools to merge json files and to replace symbols in json files.
 
 ## Requirements and Setup
 
-*Insert a short description what is required to get your project running...*
+Python3. To run the unit tests the 3rd party lib jcs (hint: pip install jcs) is needed to canonicalize expected and
+actual json files before comparison. 
 
 ## Support, Feedback, Contributing
 
