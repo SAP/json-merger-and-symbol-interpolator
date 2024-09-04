@@ -3,7 +3,7 @@ USER GUIDE FOR TOOLS TO MERGE AND TO REPLACE SYMBOLS IN JSON FILES
 
 When shared JSON data is copied to different files, any changes to that data must be made in each file where it was copied. This is tedious and error prone; better to change shared JSON data in one place only. This user guide is about three Python programs, mergejson.py, mergeall.py and factorjson.py, which offer alternatives to copying so that shared JSON data can be changed centrally.
 
-The most up to date and authoritative documentation for these programs is the help written to console when the program is run with the --help command line argument. These programs "live" in a git repository here: https://github.wdf.sap.corp/D045784/json-merger-and-symbol-interpolator.
+The most up to date and authoritative documentation for these programs is the help written to console when the program is run with the --help command line argument. These programs "live" in this git repository: https://github.com/SAP/json-merger-and-symbol-interpolator.
 
 The reader of this guide should know how to run programs from a command prompt, have Python installed, know basic git commands, and have a basic understanding of JSON. The examples in this guide assume the PYTHONPATH environment variable includes the location where these programs were cloned by git.
 

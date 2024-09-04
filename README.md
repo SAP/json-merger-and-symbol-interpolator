@@ -6,10 +6,33 @@
 
 Command line tools to merge json files and to replace symbols in json files.
 
+When shared JSON data is copied to different files, any changes to that data must be made in each file where it was copied. This is tedious and error prone; better to change shared JSON data in one place only. These three Python programs, mergejson.py, mergeall.py and factorjson.py, offer alternatives to copying so that shared JSON data can be changed centrally.
+
+There is a detailed user guide here: https://github.com/SAP/json-merger-and-symbol-interpolator/user-guide.md
+
 ## Requirements and Setup
 
-Python3. PyLint (hint: pip install pylint). To run the unit tests the 3rd party lib jcs (hint: pip install jcs) is needed to canonicalize expected and
-actual json files before comparison. 
+### Users
+
+Install
+- Python3
+
+Read the [User Guide](https://github.com/SAP/json-merger-and-symbol-interpolator/user-guide.md).
+
+### Developers
+
+Install
+- Python3
+- PyLint (hint: `pip install pylint`) static code checker.
+- YAPF (hint: `pip install yapf`) code formatter.
+- 3rd party lib jcs (hint: `pip install jcs`) for unit testing, to canonicalize expected and actual json before comparison.
+
+From the location where git cloned `json-merger-and-symbol-interpolator/py`, run all the unit tests: `python -m unittest discover -v -b`.
+
+When writing code:
+- try to follow this [python style guide](https://google.github.io/styleguide/pyguide.html).
+- format it using `yapf --style=google -i --no-local-style --verbose <sourcefile>`.
+- pylint scores must be perfect 10.00/10, with `--rcfile=json-merger-and-symbol-interpolator/py/pylint.rc` (when unavoidable, `#pylint: disable=` is allowed).
 
 ## Support, Feedback, Contributing
 
