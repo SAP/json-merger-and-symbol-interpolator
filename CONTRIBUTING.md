@@ -35,7 +35,7 @@ The following rule governs code contributions:
 
 As artificial intelligence evolves, AI-generated code is becoming valuable for many software projects, including open-source initiatives. While we recognize the potential benefits of incorporating AI-generated content into our open-source projects there a certain requirements that need to be reflected and adhered to when making contributions.
 
-Please see our [guideline for AI-generated code contributions to SAP Open Source Software Projects](https://github.com/SAP/json-merger-and-symbol-interpolator/user-guide.md/CONTRIBUTING_USING_GENAI.md) for these requirements.
+Please see our [guideline for AI-generated code contributions to SAP Open Source Software Projects](https://github.com/SAP/json-merger-and-symbol-interpolator/CONTRIBUTING_USING_GENAI.md) for these requirements.
 
 ## Issues and Planning
 
